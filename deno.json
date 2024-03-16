@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net main.ts"
+  },
+  "deploy": {
+    "project": "e60670c8-c95e-485c-9ba8-d3e160bd8b62",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
+}
